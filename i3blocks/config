@@ -1,0 +1,4 @@
+[battery2]
+command=/home/sushant/.config/i3blocks/battery2/battery2
+markup=pango
+interval=30
