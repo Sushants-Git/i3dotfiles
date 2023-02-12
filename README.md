@@ -18,37 +18,37 @@ I am using <code>alacritty</code> with <code>fish</code>.</p>
 <p></h3>Font<h3>
 I am using <a href="https://github.com/FortAwesome/Font-Awesome/releases/tag/v4.7.0"> Font-Awesome 4.7.0 </a>.Download the source file,unzip it and copy the <code> ttf </code> fonts inside the fonts file to your pc's font directory.  </p>
 <p><h3>Polybar</h3>
-For building <abbr title="The bar you see above">polybar</abbr> your will first need to install <code>yay</code>.
+For building <abbr title="The bar you see above">polybar</abbr> your will first need to install <code>yay</code>.<br>
 <code>
-cd ~ <br>
-mkdir -p /tmp/yay_install <br>
-cd /tmp/yay_install <br>
+cd ~
+mkdir -p /tmp/yay_install
+cd /tmp/yay_install
 
-sudo pacman -S base-devel <br>
+sudo pacman -S base-devel
 
-sudo pacman -S expac yajl git <br>
+sudo pacman -S expac yajl git
 
-git clone https://aur.archlinux.org/yay.git <br>
-cd yay <br>
-makepkg -si <br>
+git clone https://aur.archlinux.org/yay.git 
+cd yay
+makepkg -si 
 
-cd ~ <br>
-rm -rf /tmp/yay_install <br>
+cd ~ 
+rm -rf /tmp/yay_install
 </code>
 
-After that you can build polybar by
+After that you can build polybar by <br>
 <code>
-sudo pacman -S cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp <>br
-yay -S polybar-git <br>
+sudo pacman -S cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp
+yay -S polybar-git 
 </code>
 
 Setting up the wallpaper
-Create a Pictures Directory and inside of that create a Wal directory.
+Create a Pictures Directory and inside of that create a Wal directory.<>br
 <code>
-cd ~ <br>
-mkdir Pictures <br>
-cd Pictures <br>
-mkdir Wal <br>
+cd ~
+mkdir Pictures
+cd Pictures
+mkdir Wal
 </code>
 now paste the wallpaper from Resources into this directory.
 </p>
