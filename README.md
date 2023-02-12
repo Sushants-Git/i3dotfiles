@@ -1,6 +1,6 @@
 <html>
 <head></head>
 <body>
-Checking if HTML works in this
+<img src="./Resources/Final Images/screenshot-20230211-162109Z-all.png">
 </body>
 </html>
