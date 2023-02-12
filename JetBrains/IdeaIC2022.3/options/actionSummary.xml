@@ -1,0 +1,40 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="3" l="1676137216791" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="17" l="1676137487976" />
+    </e>
+    <e n="EditorDown">
+      <i c="2" l="1676137214303" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1" l="1676137212650" />
+    </e>
+    <e n="ExpandAllRegions">
+      <i c="1" l="1676137200619" />
+    </e>
+    <e n="ExpandRegion">
+      <i c="3" l="1676137202933" />
+    </e>
+    <e n="ReformatCode">
+      <i c="7" l="1676137218039" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1676137220865" />
+    </e>
+    <e n="SaveAll">
+      <i c="1" l="1676137219358" />
+    </e>
+    <e n="ShowSettings">
+      <i c="3" l="1676137458127" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1676137063471" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="1" l="1676137094811" />
+    </e>
+  </component>
+</application>
