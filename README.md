@@ -19,8 +19,7 @@ I am using <code>alacritty</code> with <code>fish</code>.</p>
 I am using <a href="https://github.com/FortAwesome/Font-Awesome/releases/tag/v4.7.0"> Font-Awesome 4.7.0 </a>.Download the source file,unzip it and copy the <code> ttf </code> fonts inside the fonts file to your pc's font directory.  </p>
 <p><h3>Polybar</h3>
 For building <abbr title="The bar you see above">polybar</abbr> your will first need to install <code>yay</code>.<br>
-<code>
-cd ~
+<code>cd ~
 mkdir -p /tmp/yay_install
 cd /tmp/yay_install
 
@@ -37,15 +36,13 @@ rm -rf /tmp/yay_install
 </code>
 
 After that you can build polybar by <br>
-<code>
-sudo pacman -S cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp
+<code>sudo pacman -S cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp
 yay -S polybar-git 
 </code>
 
 Setting up the wallpaper
 Create a Pictures Directory and inside of that create a Wal directory.<>br
-<code>
-cd ~
+<code>cd ~
 mkdir Pictures
 cd Pictures
 mkdir Wal
