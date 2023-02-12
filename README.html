@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="eu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This contains all the resources to recreate my Rice :) "
+    />
+    <title>i3wm Rice</title>
+  </head>
+  <body>
+    <h1>Final Rice</h1>
+    <img
+      src="./Resources/Final_Images/screenshot-20230211-162109Z-all.png"
+      alt="Desktop Screen"
+      width="700"
+    />
+    <img
+      src="./Resources/Final_Images/screenshot-20230211-162028Z-all.png"
+      alt="Windows Manager which in my case is nemo"
+      width="700"
+    />
+    <img
+      src="./Resources/Final_Images/screenshot-20230211-161852Z-all.png"
+      alt="Neofetch"
+      width="700"
+    />
+    <img
+      src="./Resources/Final_Images/screenshot-20230211-162216Z-all.png"
+      alt="Terminal Showing my vim Editior"
+      width="700"
+    />
+
+    <article>
+      <h2>Resources</h2>
+      <h3>Themes</h3>
+      <p>
+        I am using
+        <a href="https://www.gnome-look.org/p/1099856">Ant Themes</a> (
+        <strong> Ant-Nebula.tar.xz </strong> ) Theme.
+        <br />
+      </p>
+      <h3>Icons</h3>
+      <p>
+        I am using
+        <a href="https://www.gnome-look.org/p/1340791/">Reversal icon themes</a>
+        ( <strong> Reversal.tar.xz )</strong>icon pack.
+      </p>
+    </article>
+
+    <h3>Shell</h3>
+    <p>I am using <code>alacritty</code> with <code>fish</code>.</p>
+    <h3>Font</h3>
+    <p>
+      I am using
+      <a href="https://github.com/FortAwesome/Font-Awesome/releases/tag/v4.7.0">
+        Font-Awesome 4.7.0 </a
+      >.Download the source file,unzip it and copy the <code> .ttf </code> fonts
+      inside the fonts directory to your pc's font directory.
+    </p>
+
+    <h3>Polybar</h3>
+    <p>
+      For building <abbr title="The bar you see above">polybar</abbr> your will
+      first need to install <code>yay</code>.<br />
+    </p>
+    <pre>
+<code>cd ~
+mkdir -p /tmp/yay_install
+cd /tmp/yay_install
+sudo pacman -S base-devel
+sudo pacman -S expac yajl git
+git clone https://aur.archlinux.org/yay.git 
+cd yay
+makepkg -si 
+cd ~ 
+rm -rf /tmp/yay_install
+</code>
+   </pre>
+
+    After that you can build polybar by <br />
+    <pre>
+<code>sudo pacman -S cairo libxcb python2 xcb-proto xcb-util-image xcb-util-wm xcb-util-xrm jsoncpp
+yay -S polybar-git 
+</code>
+</pre>
+    Setting up the wallpaper Create a Pictures Directory and inside of that
+    create a Wal directory.<br />
+    <pre>
+<code>cd ~
+mkdir Pictures
+cd Pictures
+mkdir Wal
+</code>
+</pre>
+    now paste the wallpaper from Resources into this directory.
+  </body>
+</html>
