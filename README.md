@@ -1,2 +1,2 @@
 To Do 
-Add readma
+Add readme
